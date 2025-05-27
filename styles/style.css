@@ -103,7 +103,6 @@
 }
 
 .third__sprint {
-  /*filter: saturate(158%);*/
   filter: saturate(158%) brightness(120%) contrast(110%);
 }
 
