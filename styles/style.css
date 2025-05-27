@@ -15,7 +15,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
   font-variation-settings: "wght" 400;
-  
+
   background: var(--background);
   background-attachment: fixed;
   display: flex;
@@ -24,10 +24,8 @@
 }
 
 .header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: clamp(7.5rem, 7.28rem + 0.94vw, 8.125rem) 0;
-  /*margin-block-start: 100px;
-  margin-block-end: 100px;*/
   margin: 100px clamp(20px, 10vw, 370px);
   border: 2px solid var(--accent-color);
   font-family: var(--accent-font-family);
@@ -46,9 +44,7 @@
 }
 
 .content__size {
-  /*width: clamp(375px, 700px, 100%);*/
-  /*width: min(100%, 696px);*/
-  width: clamp(375px, 80vw, 700px); 
+  width: clamp(375px, 80vw, 700px);
 }
 
 .header__content {
@@ -89,10 +85,6 @@
   border-block-start: var(--accent-color);
   border-block-end: var(--accent-color);
 }
-
-/*.zero__sprint {
-  filter: brightness(200%);
-}*/
 
 .first__sprint {
   filter: contrast(30%);
@@ -144,17 +136,14 @@
   font-family: var(--accent-font-family);
   font-size: 14px;
   line-height: 90%;
-  
 }
 
 .button {
   background-color: transparent;
   border: 2px solid var(--accent-color, #000000);
-  
   position: relative;
   transition: 0.3s ease;
   cursor: pointer;
-  
 }
 
 .button__like {
@@ -171,7 +160,6 @@
   font-family: var(--accent-font-family);
   font-size: 14px;
   line-height: 90%;
-
 }
 
 .card__like {
@@ -212,8 +200,8 @@
 
 .teg {
   position: absolute;
-  top: 23px; 
-  right: 26px;; 
+  top: 23px;
+  right: 26px;
   border-radius: 5px;
   mix-blend-mode: hard-light;
   font-family: var(--accent-font-family);
@@ -260,15 +248,14 @@
 }
 
 .button:focus {
-  outline: none; /* Убираем стандартную обводку */
-  box-shadow: 2px 2px 0px var(--accent-color); /* Задаем тень */
-   /* Настройки плавности */
+  outline: none;
+  box-shadow: 2px 2px 0px var(--accent-color);
 }
 
 .button__like:focus {
-  outline: none; 
-  box-shadow: 2px 2px 0px var(--accent-color); 
-  transition: box-shadow 0.3s ease; 
+  outline: none;
+  box-shadow: 2px 2px 0px var(--accent-color);
+  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
@@ -289,7 +276,6 @@
 .button:hover::before {
   transform: scaleX(1);
 }
-
 
 @supports (text-stroke: 1px var(--main-color)) {
   .teg {
@@ -327,13 +313,7 @@
     width: 28px;
   }
 
-  .dialog__content{
+  .dialog__content {
     padding: 38px 5px;
   }
-
-  .cover {
-
-  }
-  
 }
-
