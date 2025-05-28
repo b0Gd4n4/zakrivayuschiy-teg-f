@@ -149,11 +149,12 @@
 .button__like {
   border: 2px solid var(--accent-color #000000);
   background-color: var(--main-color);
-  padding: 14.4px 20.2px;
+  padding: 17.4px 29.2px;
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 0px 180px;
+  margin-bottom: 50px;
 }
 
 .button__like-text {
@@ -238,6 +239,7 @@
   font-family: var(--accent-font-family);
   font-size: 14px;
   line-height: 90%;
+  text-transform: uppercase;
 }
 
 .dialog__content {
